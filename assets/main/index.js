@@ -1,6 +1,8 @@
+System.register("chunks:///_virtual/GameItem.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(t){"use strict";var e,n,o,r,c;return{setters:[function(t){e=t.inheritsLoose},function(t){n=t.cclegacy,o=t._decorator,r=t.director,c=t.Component}],execute:function(){var i;n._RF.push({},"08584K56a5CdIusFBVWlPIP","GameItem",void 0);var u=o.ccclass;o.property,t("GameItem",u("GameItem")(i=function(t){function n(){return t.apply(this,arguments)||this}e(n,t);var o=n.prototype;return o.start=function(){},o.update=function(t){},o.openGame=function(){r.loadScene("solitaire")},n}(c))||i);n._RF.pop()}}}));
+
 System.register("chunks:///_virtual/HelloWorld.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(o){"use strict";var t,e,r,n;return{setters:[function(o){t=o.inheritsLoose},function(o){e=o.cclegacy,r=o._decorator,n=o.Component}],execute:function(){var l;e._RF.push({},"f89a1UR1X1A/qSgS7ESPpxe","HelloWorld",void 0);var c=r.ccclass;r.property,o("HelloWorld",c("HelloWorld")(l=function(o){function e(){return o.apply(this,arguments)||this}t(e,o);var r=e.prototype;return r.start=function(){console.info("Hello World")},r.update=function(o){},e}(n))||l);e._RF.pop()}}}));
 
-System.register("chunks:///_virtual/main",["./HelloWorld.ts"],(function(){"use strict";return{setters:[null],execute:function(){}}}));
+System.register("chunks:///_virtual/main",["./GameItem.ts","./HelloWorld.ts"],(function(){"use strict";return{setters:[null,null],execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/main', 'chunks:///_virtual/main'); 
